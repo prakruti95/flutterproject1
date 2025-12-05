@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage>
         {
           if (snapshot.hasError)
           {
-            print('Something Wrong in HomePage');
+            print('Something Wrong in HomePage2');
           }
 
           if (snapshot.connectionState == ConnectionState.waiting)
